@@ -38,16 +38,22 @@ for (i = 0; i < cars_array.length; i++){
 
 
 document.getElementById("button0").addEventListener("click", function(){
-	for (j = 0; j < cars_array.length; j++){
-		if (j != 0){
-			console.log(i+ ", "+j)
-			document.getElementById("button" + j).style.display = "none"}
-		else if (j == 0){
-		 	console.log("yes")
-			document.getElementById("button" + j).style.display = "flex"}
-			
-		}
+	document.getElementById("button" + 1).style.display = "none"
+	document.getElementById("button" + 2).style.display = "none"
+	document.getElementById("button" + 3).style.display = "none"
 	})
-
-
-
+document.getElementById("button1").addEventListener("click", function(){
+	document.getElementById("button" + 0).style.display = "none"
+	document.getElementById("button" + 2).style.display = "none"
+	document.getElementById("button" + 3).style.display = "none"
+	})
+document.getElementById("button2").addEventListener("click", function(){
+	document.getElementById("button" + 0).style.display = "none"
+	document.getElementById("button" + 1).style.display = "none"
+	document.getElementById("button" + 3).style.display = "none"
+	})
+document.getElementById("button3").addEventListener("click", function(){
+	document.getElementById("button" + 0).style.display = "none"
+	document.getElementById("button" + 1).style.display = "none"
+	document.getElementById("button" + 2).style.display = "none"
+	})
