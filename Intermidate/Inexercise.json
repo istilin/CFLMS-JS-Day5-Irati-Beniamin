@@ -1,0 +1,73 @@
+var employees = `{
+    [{
+        "userId": "29893944811",
+        "jobTitleName" : "Developer",
+        "firstName": "Patrik",
+        "lastName": "Jonathan",
+        "emailAddress": "patrik.k.jonathan@gmail.com",
+        "salary": "2000$"
+    }, {
+        "userId": "29823964872" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Tom",
+        "lastName": "Irani",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964873" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Tom",
+        "lastName": "Lani",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964874" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Lucy",
+        "lastName": "Lomb",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964875" ,
+        "jobTitleName": "Analyst",
+        "firstName": "John",
+        "lastName": "Doe",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964876" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Max",
+        "lastName": "Row",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964877" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Soda",
+        "lastName": "Stream",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964878" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Tom",
+        "lastName": "Column",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    },{
+        "userId": "29823964879" ,
+        "jobTitleName": "Analyst",
+        "firstName": "Tom",
+        "lastName": "Watch",
+        "emailAddress": "tomrirani@gmail.com",
+        "salary": "2000$"
+    }, {
+        "userId": "25833742122" ,
+        "jobTitleName": "Program Directory",
+        "firstName": "Tom",
+        "lastName": "Heinken",
+        "emailAddress": "tomhanks@gmail.com",
+        "salary": "2000$"
+    }]
+  }`
