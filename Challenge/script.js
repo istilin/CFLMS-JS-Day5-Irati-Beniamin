@@ -4,17 +4,50 @@ const car_box = document.getElementById("carbox")
 for (i = 0; i < cars_array.length; i++){
 
 	// Create elements on the list
-	var div_element = document.createElement("div")
+	var button_element = document.createElement("button")
+	button_element.setAttribute("id","button"+i);
 	var paragraph_element = document.createElement("p")
 	var image_element = document.createElement("img")
 
 	// Append elements to the list
-	car_box.appendChild(div_element)	
-	div_element.appendChild(paragraph_element)
-	paragraph_element.innerText = `Name of our hero: ${cars_array[i].name}.`
+	car_box.appendChild(button_element)	
+	button_element.appendChild(paragraph_element)
+	paragraph_element.innerText = `${cars_array[i].name}.`
 	image_element.setAttribute("src", cars_array[i].source)
-	div_element.appendChild(image_element)
+	button_element.appendChild(image_element)
+
+	button_element.style.width = "45%";
+	button_element.style.display = "flex";
+	button_element.style.justifyContent = "center";
+	image_element.style.width = "cover";
+	image_element.style.height = "12vw";
+	button_element.style.padding = "1.5%";
+	button_element.style.margin = "1.5%";
+	button_element.style.alignItems = "center";
+
+	paragraph_element.style.fontSize = "1.8vw";
+	paragraph_element.style.fontFamily = "sans-serif";
+
+	button_element.style.border = "0.3vw solid #7FA2B9"
+	button_element.style.borderRadius = "3vw"
+	button_element.style.boxShadow = "7px 10px 13px -5px rgba(0,0,0,0.75)";
 
 
 
 }
+
+
+document.getElementById("button0").addEventListener("click", function(){
+	for (j = 0; j < cars_array.length; j++){
+		if (j != 0){
+			console.log(i+ ", "+j)
+			document.getElementById("button" + j).style.display = "none"}
+		else if (j == 0){
+		 	console.log("yes")
+			document.getElementById("button" + j).style.display = "flex"}
+			
+		}
+	})
+
+
+
