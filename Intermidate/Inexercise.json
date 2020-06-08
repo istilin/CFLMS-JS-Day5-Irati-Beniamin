@@ -1,5 +1,4 @@
-var employees = `{
-    [{
+var employees = `[{
         "userId": "29893944811",
         "jobTitleName" : "Developer",
         "firstName": "Patrik",
@@ -62,12 +61,11 @@ var employees = `{
         "lastName": "Watch",
         "emailAddress": "tomrirani@gmail.com",
         "salary": "2000$"
-    }, {
+    },{
         "userId": "25833742122" ,
         "jobTitleName": "Program Directory",
         "firstName": "Tom",
         "lastName": "Heinken",
         "emailAddress": "tomhanks@gmail.com",
         "salary": "2000$"
-    }]
-  }`
+    }]`;

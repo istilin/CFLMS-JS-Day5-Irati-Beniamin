@@ -1,21 +1,14 @@
 var emp = JSON.parse(employees);
 
-document.getElementById("employ").innerHTML
+
 document.writeln("<table border='2'><tr>");
-for (i = 0; i < books.Pascal.length; i++) {
-    document.writeln("<td>");
-    document.writeln("<table border='1' width=100 >");
-    document.writeln("<tr><td><b>Name</b></td><td width=50>" + books.Pascal[i].Name + "</td></tr>");
-    document.writeln("<tr><td><b>Price</b></td><td width=50>" + books.Pascal[i].price + "</td></tr>");
-    document.writeln("</table>");
-    document.writeln("</td>");
+
+document.writeln("<td>");
+document.writeln("<table border='1' width=100 >");
+document.writeln("<tr><td width = 80><b>User ID</b></td><td> <b> Job Title </b> </td><td> <b> First Name </b> </td><td> <b> Last Name </b></td> <td> <b> E-mail Address </b> </td><td> <b> Salary <b> </td></tr>" ) 
+
+for (i = 0; i < emp.length; i++) {
+    
+    document.writeln("<tr><td>" + emp[i].userId + "</td><td>" + emp[i].jobTitleName + "</td><td>" + emp[i].firstName + "</td><td>" + emp[i].lastName +  "</td><td>" + emp[i].emailAddress + "</td><td>" + emp[i].salary +"</td></tr>");
 }
-for (i = 0; i < books.Scala.length; i++) {
-    document.writeln("<td>");
-    document.writeln("<table border='1' width=100 >");
-    document.writeln("<tr><td><b>Name</b></td><td width=50>" + books.Scala[i].Name + "</td></tr>");
-    document.writeln("<tr><td><b>Price</b></td><td width=50>" + books.Scala[i].price + "</td></tr>");
-    document.writeln("</table>");
-    document.writeln("</td>");
-}
-document.writeln("</tr></table>");
+document.writeln("</table>");
