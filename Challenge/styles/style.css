@@ -39,4 +39,12 @@ footer {
   flex-wrap: wrap;
   margin: 5%; }
 
+h1 {
+  font-size: 1.8vw;
+  font-family: sans-serif; }
+
+p {
+  font-size: 1.2vw;
+  font-family: sans-serif; }
+
 /*# sourceMappingURL=style.css.map */
