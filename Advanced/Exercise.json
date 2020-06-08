@@ -1,0 +1,15 @@
+var books = `[{"title":"JavaScript: The Good Parts",
+   "author": "Douglas Crockford",
+   "read": "true",
+   "source" : "img/book1.png"
+},{"title" : "JavaScript: The Definitive Guide",
+	"author" : "DavidFlanagan",
+	"read" : "false",
+	"source" : "img/book2.png"
+
+},{"title":"JavaScript for Web Developers",
+   "author": "Nichlas C. Zakas",
+   "read": "true",
+   "source" : "img/book3.png"
+
+}]`
